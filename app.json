@@ -24,7 +24,7 @@
             "required": true
         },
         "OWNER_ID": {
-            "description": "𝑼𝒔𝒆𝒓 𝑰𝑫 𝑶𝒇 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
+            "description": "5387859888",
             "required": true
         },
         "SUDO_USERS": {
