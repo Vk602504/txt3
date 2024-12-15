@@ -91,7 +91,7 @@ async def progress_bar(current, total, reply, start):
             progress_bar = "▓" * completed_length + "▒" * remaining_length
             
             try:
-                await reply.edit(f'`\n ╭──⌯════Bot Info═════⌯──╮ \n├⚡ {progress_bar}|﹝{perc}﹞ \n├🚀 Speed » {sp} \n├📟 Processed » {cur}\n├🧲 Size - ETA » {tot} - {eta} \n╰─═══Jadugar═══─╯`\n') 
+                await reply.edit(f'`\n ╭──⌯════Bot Info═════⌯──╮ \n├⚡ {progress_bar}|﹝{perc}﹞ \n├🚀 Speed » {sp} \n├📟 Processed » {cur}\n├🧲 Size - ETA » {tot} - {eta} \n╰─═══ꪜᎥᴋꫝꜱʜ KᴀꜱʜʏᴀᎮ═══─╯`\n') 
             except FloodWait as e:
                 time.sleep(e.x)
 
