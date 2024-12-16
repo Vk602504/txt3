@@ -36,7 +36,7 @@ async def account_login(bot: Client, m: Message):
 
 @bot.on_message(filters.command("stop"))
 async def restart_handler(_, m):
-    await m.reply_text("🚦🚦**Stopped**🚦🚦", True)
+    await m.reply_text("**Stopped**🚦🚦", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
@@ -209,7 +209,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**⥥ Downloading »**\n\n**Name »** `{name}\nQuality » {raw_text2}` \n\n**Bot By ➤ **Jadugar"
+                    Show = f"**⥥ Downloading »**\n\n**Name »** `{name}\nQuality » {raw_text2}` \n\n**Bot By ➤ **ꪜᎥᴋꫝꜱʜ KᴀꜱʜʏᴀᎮ"
                
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
